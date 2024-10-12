@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: linear-gradient(to bottom, #e38695, #70b5e7); */
+    background-attachment: fixed;
+    background-image:url( 'https://cdn.pixabay.com/photo/2024/03/27/11/18/witch-8658915_1280.png');
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #FF69B4, #34A85A, #FFC107, #8E24AA);
+    cursor: pointer;
+    animation: shine 10s infinite;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  .button:hover {
+    animation: scale 0.5s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+  #result {
+    margin-top: 20px;
+  }
+  
+  #result p {
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #result p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  
+  #result {
+    background: linear-gradient(to bottom, #FF69B4, #3F51B5);
+    background-attachment: fixed;
+    padding: 20px;
+  }
+  
+  #result p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+  h1{
+    font-size: 48px;
+    text-align: center;
+    background: linear-gradient(to right, #FF69B4, #34A85A, #FFC107, #8E24AA,Red,Blue,rgb(58, 202, 6),rgba(0, 0, 0, 0.1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+  }
+  
+  h1:hover {
+    animation: scale 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: #fff;
+    text-shadow: 0 0 10px #fe16f3;
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    text-align: center;
+    
+  }
+  
+
+  #number {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  #number:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border: 2px solid #4CAF50;
+  }
+  
+  #number::placeholder {
+    color: #ccc;
+    font-style: italic;
+  }
+  h3 {
+    font-size: 28px;
+    background: linear-gradient(to right, #FF69B4, #34A85A, #FFC107, #8E24AA,Red,Blue,rgb(58, 202, 6),rgba(0, 0, 0, 0.1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 6s infinite;
+  }
